@@ -15,7 +15,7 @@ namespace ConsoleTrain
         {
             Console.Title = "Blind-keyboard training";
 
-            Console.WriteLine("Выберите сложность игры:\nlvl 1 - Crock\nlvl 2 - Mafia Boss\nlvl 3 - Papa\nlvl 4 - Mega Crock\nНажмите 1, 2, 3 или 4 что бы выбрать уровень..");
+            Console.WriteLine("Оберіть рівень гри:\nlvl 1 - Crock\nlvl 2 - Mafia Boss\nlvl 3 - Papa\nlvl 4 - Mega Crock\nНатисніть 1, 2, 3 або 4 для вибору рівня..");
             char buff;
             int size = 0;
 
@@ -68,8 +68,8 @@ namespace ConsoleTrain
             //---------------Menu------------------//
             Console.WriteLine("\n");
             Console.WriteLine("\n\t**************************");
-            Console.WriteLine($"\t** У вас: {size - counter} совпадений **");
-            Console.WriteLine($"\t** У вас: {counter} ошибок      **");
+            Console.WriteLine($"\t** У вас: {size - counter} збігів **");
+            Console.WriteLine($"\t** У вас: {counter} помилок       **");
             Console.WriteLine("\t**************************");
             //---------------Menu------------------//
         }
